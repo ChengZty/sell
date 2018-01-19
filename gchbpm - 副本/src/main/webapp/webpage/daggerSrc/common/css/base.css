@@ -1,0 +1,76 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,
+::after,
+::before{
+
+    padding: 0;
+    margin: 0;
+
+    /*清除ios默认的点击时产生的高亮区块   rgba(0,0,0,0)*/
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color:transparent;
+    /*定义盒子模型定义的宽度从边框计算*/
+    /*-webkit-box-sizing: border-box;*/
+    font-family: "Microsoft YaHei", Arial, "Trebuchet MS", Verdana, Georgia,
+        Baskerville, Palatino, Times;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+button{
+    border: none;
+    outline: none;
+}
+
+table { 
+    border-collapse:collapse; 
+    border-spacing:0; 
+} 
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+img{
+    vertical-align: middle;/*清除3px的bug*/
+    border: 0;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div {
+  font-size: 12px;
+}
+[data-dpr="2"] div {
+  font-size: 24px;
+}
+[data-dpr="3"] div {
+  font-size: 36px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+

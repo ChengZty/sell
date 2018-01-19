@@ -1,0 +1,141 @@
+.xj_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -290px;
+    margin-left: -408px;
+    width: 816px;
+    height: 580px;
+    border: 1px solid #E6E6E6;
+}
+
+.xj_box .msg_text{
+    background: #E6E6E6;
+    text-align: center;
+    line-height: 50px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #333;
+}
+
+.xj_box .msg_input_box{
+    position: relative;
+    width: 816px;
+    height: 40px;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+.xj_box .msg_input_box .msg_text1{
+    position: absolute;
+    display: inline-block;
+    left: 80px;
+    line-height: 40px;
+    color: #333;
+}
+
+.xj_box .msg_input_box .msg_input{
+    position: absolute;
+    left: 164px;
+    width: 477px;
+    line-height: 38px;
+    border: 1px solid  #E6E6E6;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    padding-left: 12px;
+    color: #333;
+}
+
+.xj_box .msg_explain{
+    margin-left: 176px;
+    margin-top: 8px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #548087;
+}
+
+.xj_box .msg_hint_box{
+    position: relative;
+    width: 816px;
+    height: 230px;
+    margin-top: 68px;
+    display: none;
+}
+
+.xj_box .msg_hint_box .line{
+    position: absolute;
+    left: 164px;;
+    width: 477px;
+    height: 1px;
+    background: #E6E6E6;
+}
+
+.xj_box .msg_hint_box .msg_text2{
+    position: absolute;
+    margin-left: 176px;
+    top: 27px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #333;
+}
+
+.xj_box .msg_hint_box .msg_sign_name{
+    position: absolute;
+    margin-left: 176px;
+    top: 80px;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    color: #808080;
+}
+
+.xj_box .msg_hint_box .msg_text1{
+    position: absolute;
+    margin-left: 176px;
+    top: 118px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #548087;
+}
+
+
+.xj_box .button_box{
+    position: absolute;
+    width: 816px;
+    height: 68px;
+    bottom: 0px;
+    background: #E6E6E6;
+}
+
+.xj_box .button_box .button_box_position{
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    left: 50%;
+    margin-left: -127.5px;
+    height: 30px;
+}
+
+.xj_box .button_box .btn_cancel{
+    width: 120px;
+    height: 30px;
+    background: #DBE2E0;
+    color: #243938;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    border-radius: 3px;
+    border: 1px solid #BBD1CB;
+}
+.xj_box .button_box .btn_affirm{
+    width: 120px;
+    height: 30px;
+    margin-left: 14px;
+    background: #CCCCCC;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    border-radius: 3px;
+    border: 1px solid #BFBFBF;
+    /*background: #548087;变色
+    color: white;*/
+}

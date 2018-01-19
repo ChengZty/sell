@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+.uploadify-button {
+	background-color: #505050;
+	border-radius: 30px;
+	color: #FFF;
+	text-align: center;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+
+.required {
+	color: red;
+}
+
+.pic_div {
+	/*   	width: 100px; */
+	position: relative;
+	margin-top: 15px;
+	/* margin-right: 10px; */
+/* 	margin-bottom: 5px; */
+	display: inline-block;
+/* 	float: left; */
+}
+
+.video_div {
+	width: 320px;
+/* 	line-height: 0; */
+/* 	position: relative; */
+	margin-left: 20px;
+	margin-bottom: 10px;
+	display: inline-block;
+/* 	float: left; */
+}
+
+.delete {
+	display: block;
+	color: red;
+	background: rgba(255, 255, 255, 0.2);
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	z-index: 100;
+}
+
+.brick{
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+
+.dtl_div {
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+}
+
+.delete2 {
+	display: block;
+	color: gray;
+	background: rgba(217, 217, 217, 0.5);
+	width: 25px;
+	height: 25px;
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	line-height: 20px;
+}
+.elips{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

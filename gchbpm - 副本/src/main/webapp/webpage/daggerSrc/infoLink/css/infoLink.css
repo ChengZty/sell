@@ -1,0 +1,249 @@
+button{
+    cursor: pointer;
+}
+
+.xj_div_box{
+    position: absolute;
+    top: 50%;
+    margin-top: -290px;
+    left: 50%;
+    margin-left: -408px;
+    width: 816px;
+    height: 580px;
+}
+
+.xj_div_box .head_box{
+    position: relative;
+    width: 816px;
+    height: 50px;
+    background: #E5E5E5;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.xj_div_box .head_box .title{
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 23px;
+}
+
+.xj_div_box .head_box .title{
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+    padding-left: 23px;
+}
+
+.xj_div_box .head_box .info_close{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -8.5px;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+
+.xj_div_box .context_box{
+    width: 816px;
+    height: 530px;
+}
+
+.xj_div_box .context_box .search_box{
+    width: 816px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.xj_div_box .context_box .search_box .keyword{
+    width: 202px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+
+.xj_div_box .context_box .search_box .btn_search{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #548086;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    background: #548086;
+    line-height: 30px;
+}
+
+.xj_div_box .context_box .goods_number{
+    margin-left: 25px;
+    margin-top: 32px;
+    font-size: 14px;
+    color: #333;
+}
+
+.xj_div_box .context_box .goods_box{
+    margin-top: 25px;
+}
+
+.xj_div_box .context_box .goods_box .goods_item{
+    margin-bottom: 20px;
+}
+
+.xj_div_box .context_box .goods_box .goods_item_box{
+    position: relative;
+    width: 766px;
+    height: 46px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.xj_div_box .context_box .goods_box .goods_item_box .goods_img{
+    width: 82px;
+    height: 46px;
+}
+
+.xj_div_box .context_box .goods_box .goods_item_box .goods_name{
+    position: absolute;
+    top: 0px;
+    left: 95px;
+    font-size: 16px;
+    color: #595757;
+}
+
+.xj_div_box .context_box .goods_box .goods_item_box .info_url{
+    position: absolute;
+    left: 95px;
+    bottom: 0px;
+    font-size: 14px;
+    color: #808080;
+}
+
+.xj_div_box .context_box .goods_box .goods_item_box .btn_goods_link{
+    float: right;
+    width: 120px;
+    height: 30px;
+    margin-top: 8px;
+    background: #548086;
+    border-radius: 3px;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.xj_div_box .page_box{
+    position: absolute;
+    right: 0px;
+    margin-right: 25px;
+    bottom: 0px;
+    margin-bottom: 45px;
+    width: 250px;
+    height:30px;
+}
+
+.xj_div_box .page_box .btn_up_box{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.xj_div_box  .page_box .page_up_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.1px;
+    margin-top: -5.2px;
+}
+
+.xj_div_box  .page_box .btn_box{
+    position: absolute;
+    left:50px;
+    height:30px;
+    width:250px;
+}
+
+
+.xj_div_box .page_box .page_number_dive{
+    position: absolute;
+    top: 50%;
+    margin-top: -6.5px;
+    display: inline-block;
+    height: 13px;
+}
+
+.xj_div_box  .page_box .page{
+    line-height: 13px;
+    font-size: 15px;
+    color: #666666;
+}
+
+.xj_div_box .page_box .btn_next_box{
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.xj_div_box  .page_box .page_next_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.1px;
+    margin-top: -5.2px;
+}
+
+.xj_div_box .page_box .page_input_box{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.xj_div_box  .page_box .page_input{
+    width: 75px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.xj_div_box .page_box .page_skip_box{
+    position: absolute;
+    top: 0px;
+    left: 177px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.xj_div_box  .page_box .page_skip{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -18px;
+    line-height: 18px;
+    width: 36px;
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+}

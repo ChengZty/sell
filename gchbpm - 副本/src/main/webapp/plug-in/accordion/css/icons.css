@@ -1,0 +1,29 @@
+
+.default{background: url('../images/default.png') no-repeat}
+.book_edit{background:url('../images/book_edit.png') no-repeat;}
+.pencil{background:url('../images/pencil.png') no-repeat;}
+.back{background:url('../images/back.png') no-repeat;}
+.search{background:url('../images/search.png') no-repeat;}
+.map{background:url('../images/map.png') no-repeat;}
+.pictures{background:url('../images/pictures.png') no-repeat;}
+.calculator{background:url('../images/calculator.png') no-repeat;}
+.folder{background:url('../images/folder.png') no-repeat;}
+.pie{background:url('../images/pie.png') no-repeat;}
+.group_add{background:url('../images/group_add.png') no-repeat;}
+
+.baobiao{background:url('../images/baobiao.png') no-repeat}
+.caiwu{background:url('../images/caiwu.png') no-repeat}
+.dingdan{background:url('../images/dingdan.png') no-repeat}
+.huiyuan{background:url('../images/huiyuan.png') no-repeat}
+.shangpin{background:url('../images/shangpin.png') no-repeat}
+.xitong{background:url('../images/xitong.png') no-repeat}
+.yingxiao{background:url('../images/yingxiao.png') no-repeat}
+.shoye{background:url('../images/shoye.png') no-repeat}
+.huati{background:url('../images/huati.png') no-repeat}
+.shouye_sz{background:url('../images/shouye_sz.png') no-repeat}
+.duanxin{background:url('../images/duanxin.png') no-repeat}
+.duanxin_tuisong{background:url('../images/duanxin_tuisong.png') no-repeat}
+.duanxin_xiangqing{background:url('../images/duanxin_xiangqing.png') no-repeat}
+.xinxishezhi{background:url('../images/xinxishezhi.png') no-repeat}
+.guke{background:url('../images/guke.png') no-repeat}
+.shangpin_shezhi{background:url('../images/shangpin_shezhi.png') no-repeat}

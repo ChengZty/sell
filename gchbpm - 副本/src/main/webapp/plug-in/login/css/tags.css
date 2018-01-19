@@ -1,0 +1,6 @@
+.box{ width:500px; padding:10px; height:auto; overflow:hidden; text-align:center}
+.box span{ line-height:30px; height:30px;white-space:nowrap; display:inline-block; cursor:pointer}
+.box a,.box a:hover{ padding:10px;color:#fff; line-height:16px;font-weight:bold; font-size:14px;text-decoration:none; position:relative; border:0;}
+.box a:hover{ border:2px #09e solid;padding:8px;}
+
+

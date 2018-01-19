@@ -1,0 +1,379 @@
+body{
+    overflow-x: hidden;
+}
+.left_slide_div{
+    opacity: 0;
+    position: fixed;
+    top: 0.0rem;
+    left:50%;
+    margin-left: -12.786667rem;
+    width: 7.786667rem;
+    background: #F6F6F6;
+    z-index: 200;
+    overflow-y: auto;
+}
+
+.left_slide_div .search_div{
+    display: none;
+    position: relative;
+}
+
+.left_slide_div .search_div .search_input{
+    width: 6.666667rem;
+    height: 0.8rem;
+    background: white;
+    border-radius: 0.026667rem;
+    border: 0.0rem;
+    margin-left: 0.56rem;
+    margin-top: 0.266667rem;
+    font-size: 0.346667rem;
+    color: #333333;
+}
+
+.left_slide_div .search_div .btn_search{
+    position: absolute;
+    top: 0.266667rem;
+    right: 0.0rem;
+    margin-right: 0.56rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url("../img/search.png") no-repeat center center;
+    background-size:0.8rem 0.8rem;
+}
+
+
+.left_slide_div .homePage_div{
+    margin-top: 0.733333rem;
+}
+.left_slide_div  .icon_img{
+    width: 0.813333rem;
+    height: 1.266667rem;
+    margin-left: 0.56rem;
+}
+
+.left_slide_div .homePage_div .homePage_img{
+    background: url("../img/logo_01.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+
+.left_slide_div .homePage_div .icon_text{
+    position: absolute;
+    top: 0.0rem;
+    left: 1.706667rem;
+    line-height: 1.266667rem;
+    font-size: 0.346667rem;
+    color: #FBB03B;
+    text-align: center;
+}
+
+.left_slide_div .style_box{
+    position: relative;
+    width: 7.786667rem;
+    height: 1.266667rem;
+    border-top: 0.013333rem solid #E6E6E6;
+}
+
+
+.left_slide_div .scene_div .scene_img{
+    background: url("../img/pic004.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .scene_div.active .scene_img{
+    background: url("../img/pic003.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .icon_text1{
+    position: absolute;
+    top: 0.0rem;
+    left: 1.706667rem;
+    line-height: 1.266667rem;
+    font-size: 0.346667rem;
+    color: #333333;
+    text-align: center;
+}
+
+.left_slide_div .function_div .function_img{
+    background: url("../img/pic002.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .function_div.active .function_img{
+    background: url("../img/pic001.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .introduce_div .introduce_img{
+    background: url("../img/pic006.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .introduce_div.active .introduce_img{
+    background: url("../img/pic005.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .advantage_div .advantage_img{
+    background: url("../img/pic008.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+
+.left_slide_div .advantage_div.active .advantage_img{
+    background: url("../img/pic007.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .cooperation_div .cooperation_img{
+    background: url("../img/pic010.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .cooperation_div.active .cooperation_img{
+    background: url("../img/pic009.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .cooperation_div .guide_help_img{
+    background: url("../img/bg_help.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .cooperation_div.active .guide_help_img{
+    background: url("../img/bg_help.png") no-repeat center center;
+    background-size: 0.813333rem 0.813333rem;
+}
+
+.left_slide_div .line01{
+    height: 0.013333rem;
+    background: #E6E6E6;
+}
+
+.left_slide_div .bottom_div{
+    margin-top: 4.573333333rem;
+    height: 3.533333rem;
+}
+
+
+.left_slide_div  .bottom_div .icon_img1{
+    width: 0.546667rem;
+    height: 0.546667rem;
+    margin-left: 0.56rem;
+}
+
+.left_slide_div .bottom_div .qq_img{
+    background: url("../img/qq.png") no-repeat center center;
+    background-size: 0.546667rem 0.546667rem;
+}
+
+.left_slide_div .bottom_div .qq_div{
+    position: relative;
+    width: 7.786667rem;
+    height: 0.546667rem;
+}
+
+.left_slide_div .bottom_div .icon_text2{
+    position: absolute;
+    top: 0.0rem;
+    left: 1.706667rem;
+    line-height: 0.546667rem;
+    font-size: 0.36rem;
+    color: #989898;
+    text-align: center;
+}
+.left_slide_div .bottom_div .icon_text2 a{
+    font-size: 0.36rem;
+    color: #989898;
+}
+
+.left_slide_div .bottom_div .network_div{
+    position: relative;
+    width: 7.786667rem;
+    height: 0.546667rem;
+    margin-top: 0.266667rem;
+}
+
+.left_slide_div .bottom_div .network_img{
+    background-size: 0.546667rem 0.546667rem;
+    background: url("../img/network.png") no-repeat center center;
+}
+
+.left_slide_div .bottom_div .phone_div{
+    position: relative;
+    width: 7.786667rem;
+    height: 0.546667rem;
+    margin-top: 0.266667rem;
+}
+
+.left_slide_div .bottom_div .phone_img{
+    background: url("../img/phone.png") no-repeat center center;
+    background-size: 0.546667rem 0.546667rem;
+}
+
+.banner_div{
+    margin: 0 auto;
+    position: relative;
+    width: 10.0rem;
+    height: 17.733333rem;
+    background: url("../img/banner_bg.png");
+    background-size:10.0rem;
+}
+
+.banner_div .title_div{
+    position: fixed;
+    z-index: 100;
+    top: 0.0rem;
+    left:50%;
+    margin-left: -5.0rem;
+    width: 10.0rem;
+    height: 1.186667rem;
+    border-bottom: 0.013333rem solid #787878;
+}
+
+.banner_div .title_div.active{
+    background: white;;
+}
+
+.banner_div .title_div .btn_logo{
+    width: 1.08rem;
+    height: 1.186667rem;
+    margin-left: 0.2rem;
+    background: url("../img/logo01_01.png") no-repeat center center;
+    background-size: 1.08rem 1.08rem;
+}
+
+
+
+.banner_div .title_div .btn_phone{
+    width: 0.413333rem;
+    height: 1.186667rem;
+    margin-left: 2.8rem;
+    background: url("../img/phone01.png") no-repeat center center;
+    background-size: 0.413333rem 0.413333rem;
+}
+
+.banner_div .title_div.active .btn_phone{
+    background: url("../img/phone02.png") no-repeat center center;
+    background-size: 0.413333rem 0.413333rem;
+}
+
+.banner_div .title_div .phone_text{
+    display: inline-block;
+    line-height: 1.186667rem;
+    vertical-align: top;
+    font-size: 0.32rem;
+    color: white;
+}
+.banner_div .title_div .phone_text a{
+    font-size: 0.32rem;
+    color: white;
+}
+
+.banner_div .title_div.active .phone_text{
+    color: #666;
+}
+.banner_div .title_div.active .phone_text a{
+    color: #666;
+}
+
+.banner_div .title_div .btn_menu{
+    float: right;
+    width: 1.186667rem;
+    height: 1.186667rem;
+    background: url("../img/menu02.png") no-repeat center center;
+    background-size: 1.186667rem 1.186667rem;
+    padding: 0.0rem;
+}
+
+.banner_div .title_div .btn_menu.active{
+    background: url("../img/menu01.png") no-repeat center center;
+    background-size: 1.186667rem 1.186667rem;
+}
+
+.banner_div .img01_div{
+    position: absolute;
+    width: 10.0rem;
+    margin-top: 3.733333rem;
+}
+
+.banner_div .img01_div .banner_img01{
+    position: absolute;
+    top: 0.0rem;
+    left: 50%;
+    margin-left: -3.946667rem;
+    width: 7.893333rem;
+    height: 6.466667rem;
+}
+
+.banner_div .img02_div{
+    position: absolute;
+    bottom: 0.0rem;
+    margin-bottom: 1.333333rem;
+    left: 0.0rem;
+    width: 10.0rem;
+}
+
+.banner_div .img02_div .banner_img02{
+    position: absolute;
+    top: 0.0rem;
+    left: 50%;
+    margin-left: -1.52rem;
+    width: 3.053333rem;
+    height: 0.72rem;
+}
+
+.banner_div .img02_div{
+    position: absolute;
+    bottom: 0.0rem;
+    margin-bottom: 1.333333rem;
+    left: 0.0rem;
+    width: 10.0rem;
+}
+
+.scree_box .scree_img{
+    width: 10.0rem;
+}
+.function_box .function_img{
+    width: 10.0rem;
+}
+
+
+.introduce_box{
+    position: relative;
+    width: 10.0rem;
+    height: 15.813333rem;
+    background: url("../img/introduce.jpg") no-repeat -10.0rem 0.0rem;
+    background-size:20.0rem 15.813333rem;
+}
+
+.introduce_box .btn1{
+    width: 4.4rem;
+    height: 1.0rem;
+    margin-top: 3.36rem;
+    margin-left: 0.52rem;
+    background: no-repeat;
+}
+
+.introduce_box .btn2{
+    position: absolute;
+    top: 3.36rem;
+    left: 5.2rem;
+    width: 4.4rem;
+    height: 1.0rem;
+    background: no-repeat;
+}
+
+.introduce_box.active{
+    background: url("../img/introduce.jpg") no-repeat 0.0rem 0.0rem;
+    background-size:20.0rem 15.813333rem;
+}
+
+
+.advantage_box .advantage_img{
+    width: 10.0rem;
+}
+.cooperation_box .cooperation_img{
+    width: 10.0rem;
+}

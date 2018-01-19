@@ -1,0 +1,436 @@
+button{
+    cursor: pointer;
+}
+.xj_div_box{
+    position: absolute;
+    top: 50%;
+    margin-top: -290px;
+    left: 50%;
+    margin-left: -408px;
+    width: 816px;
+    height: 580px;
+}
+
+.xj_div_box .div_head{
+    position: relative;
+    width: 816px;
+    height: 50px;
+    background: #E5E5E5;
+}
+
+.xj_div_box .div_head .title{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -8px;
+    margin-left: 20px;
+    font-family: "PingFangSC Light-B5pc-H*";
+    font-size: 16px;
+    color: #1A1A1A;
+}
+
+.div_content{
+    position: relative;
+    width: 816px;
+    height: 465px;
+    border-bottom: 1px solid #CBCBCB;
+    border-top: 1px solid #CBCBCB;
+}
+.div_content .classify{
+    height: 465px;
+    width: 150px;
+    border-right: 1px solid #CBCBCB;
+}
+
+.div_content .classify .classify_item{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 26px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.div_content .classify .classify_item_bg{
+    background: #E5E5E5;
+}
+
+.div_content .new_classify{
+    position: absolute;
+    display: none;
+    z-index: 200;
+    width: 293px;
+    height: 175px;
+    margin-left: -40px;
+    background: url("../../choosePicture/img/new_grouping_bg.png") no-repeat;
+}
+
+.div_content .new_classify.active{
+    display: block;
+}
+
+.div_content .new_classify .new_classify_title{
+    position: absolute;
+    top: 37px;
+    left: 18px;
+    font-family: "PingFangTC Regular-B5pc-H*";
+    font-size: 14px;
+    color: #595757;
+}
+
+.classify .new_classify .new_classify_input{
+    position: absolute;
+    top: 61px;
+    left: 18px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333;
+    border-radius: 3px;
+    border: 1px solid #CBCBCB;
+    width: 255px;
+    height: 30px;
+}
+
+.classify .new_classify .new_classify_button{
+    position: absolute;
+    top: 112px;
+    left: 18px;
+    width: 255px;
+}
+
+.classify .new_classify .new_classify_button .btn_cancel{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #D0DDD9;
+    color: #243938;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+}
+
+.classify .new_classify .new_classify_button .btn_affirm{
+    float: right;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #548086;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+}
+
+.div_content .uploading{
+    position: absolute;
+    top: 0px;
+    left: 151px;
+    width: 665px;
+    height: 58px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.div_content .uploading .btn_uploading{
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    top: 50%;
+    margin-top: -15px;
+    width: 120px;
+    height: 30px;
+    background: #548086;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border-radius: 3px;
+    color: white;
+}
+
+.div_content .pic_box{
+    position: absolute;
+    top: 59px;
+    left: 151px;
+    width: 665px;
+    height: 405px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.div_content .pic_box .pic_list{
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    left: 50%;
+    margin-left: -309px;
+    width: 618px;
+}
+
+.div_content .pic_box .pic_list .pic_item{
+    position: relative;
+    width: 118px;
+    height: 148px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+
+/*两个类选择器同时并存*/
+.div_content .pic_box .pic_list .pic_item.active .mask{
+    display: block;
+}
+
+/*选择那一个元素*/
+.div_content .pic_box .pic_list .pic_item:nth-child(5n+5){
+    margin-right: 0px;
+}
+
+.div_content .pic_box .pic_list .img_content{
+    width: 118px;
+    height: 118px;
+}
+
+.div_content .pic_box .pic_list .img_name_box{
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+    margin-bottom: 8.5px;
+    height: 13px;
+    display: inline-block;
+}
+
+.div_content .pic_box .pic_list .img_name{
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #666666;
+    display:block;/*内联对象需加*/
+	width:8em;/*指定宽度*/
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 强制在同一行内显示所有文本，直到文本结束或者遭遇 br 对象。不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;
+}
+.div_content .pic_box .pic_list .mask{
+    position: absolute;
+    top: 0px;
+    z-index: 199;
+    opacity: 0.6;
+    filter: "alpha(opacity=60)";
+    width: 118px;
+    height: 148px;
+    background: black;
+    display: none;
+}
+
+.div_content .pic_box .pic_list .choose_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14px;
+    margin-left: -20px;
+}
+
+.div_content .pic_box .page_box{
+    position: absolute;
+    right: 0px;
+    margin-right: 22px;
+    bottom: 0px;
+    margin-bottom: 20px;
+    width: 300px;
+    height:30px;
+}
+
+
+.div_content .pic_box .page_box .btn_up_box{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.div_content .pic_box .page_box .page_up_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.1px;
+    margin-top: -5.2px;
+}
+
+
+
+
+.div_content .pic_box .page_box .btn_box{
+    position: absolute;
+    left:50px;
+    height:30px;
+    width:250px;
+}
+
+
+.div_content .pic_box .page_box .page_number_dive{
+    position: absolute;
+    top: 50%;
+    margin-top: -6.5px;
+    display: inline-block;
+    height: 13px;
+}
+
+.div_content .pic_box .page_box .page{
+    line-height: 13px;
+    font-size: 15px;
+    font-family: "PingFangSC Light-B5pc-H*";
+    color: #666666;
+}
+
+
+
+
+.div_content .pic_box .page_box .btn_next_box{
+    position: absolute;
+    top: 0px;
+    left: 52px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.div_content .pic_box .page_box .page_next_img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3.1px;
+    margin-top: -5.2px;
+}
+
+.div_content .pic_box .page_box .page_input_box{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.div_content .pic_box .page_box .page_input{
+    width: 75px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.div_content .pic_box .page_box .page_skip_box{
+    position: absolute;
+    top: 0px;
+    left: 177px;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.div_content .pic_box .page_box .page_skip{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -18px;
+    line-height: 18px;
+    width: 36px;
+    font-family: "PingFangSC Light-B5pc-H*";
+    font-size: 18px;
+    text-align: center;
+    color: #666666;
+}
+
+.div_button{
+    position: relative;
+    width: 816px;
+    height: 65px;
+    background: #E5E5E5;
+}
+
+.div_button .choose_number_box{
+    position: absolute;
+    top: 50%;
+    margin-top: -7.5px;
+    margin-left: 24px;
+    line-height: 15px;
+}
+
+.div_button .choose_number_box .choose_number{
+    font-family: "PingFangSC Light-B5pc-H*";
+    font-size: 14px;
+    color: black;
+}
+
+.div_button .button_box{
+    position: absolute;
+    width: 256px;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -128px;
+}
+
+.div_button .button_box .btn_cancel{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background: #D0DDD9;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #243938;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+}
+
+.div_button .button_box .btn_affirm{
+    position: relative;
+    width: 120px;
+    height: 30px;
+    background: #CBCBCB;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #B2B2B2;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+}
+.div_content .btn_delete_pic{
+    position: absolute;
+    right: 133px;
+    margin-right: 20px;
+    top: 50%;
+    margin-top: -15px;
+    width: 120px;
+    height: 30px;
+    background: #548086;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border-radius: 3px;
+    color: white;
+}
+.div_content .btn_edit_classify{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -11px;
+    width: 22px;
+    height: 22px;
+    background: url('../../common/img/btn_edit.png') no-repeat center center;
+    background-size: 16px 16px;
+}
+
+

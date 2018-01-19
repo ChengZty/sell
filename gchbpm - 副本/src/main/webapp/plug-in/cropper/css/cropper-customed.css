@@ -1,0 +1,65 @@
+.ui_loading_box{
+    display: none;
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+.ui_loading_box .ui_loading{
+    position: absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+
+    width:96px;
+    height:32px;
+    
+    background:url('./../img/loading.gif') no-repeat center center;
+ }
+
+.cropper-box .avatar-upload {
+    overflow: hidden;
+}
+.cropper-box .load_blue {
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 120px;
+    text-align: center;
+    background: #00c1e0;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    user-select: none;
+    cursor: pointer;
+}
+.cropper-box .imgInp {
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.cropper-box .avatar-wrapper {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.25);
+    background-color: #fcfcfc;
+    overflow: hidden;
+}
+
+.avatar-wrapper img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }

@@ -1,0 +1,578 @@
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#010101,endcolorstr=#434343,gradientType=0);
+    -ms-filter:alpha(opacity=100 finishopacity=50 style=1 startx=0,starty=0,finishx=0,finishy=150) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#010101,endcolorstr=#434343,gradientType=0);/*IE8*/	
+    background:#010101; /* 涓�簺涓嶆敮鎸佽儗鏅笎鍙樼殑娴忚鍣�*/  
+    /* background:-moz-linear-gradient(top, #010101, rgba(67, 67, 67, 0.5));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#010101), to(rgba(67, 67, 67, 0.5)));  
+    background:-o-linear-gradient(top, #010101, rgba(67, 67, 67, 0.5));  */
+    background: url('./../img/bg-New.jpg') no-repeat center center;
+    background-size: cover;
+}
+.container .login_content{
+    position: absolute;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.container .desc_box{
+    display: block;
+    margin: 0 auto;
+    margin-top: 136px;
+    text-align: center;
+}
+.container .logo_img{
+    margin-left: -100px;
+    width: 261px;
+    height: 193px;
+}
+.container .desc_01{
+    margin-top: 36px;
+    margin-left: -146px;
+    font-size: 24px;
+    color: #fff;
+}
+.container .desc_02{
+    margin-top: 20px;
+    margin-left: 12px;
+    font-size: 42px;
+    color: #c1996b;
+}
+.dots_content{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.body_box{
+    width:1200px;
+    margin:0 auto;
+    background: #f6f6f6;
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+}
+.bg_big{
+    width: 100%;
+}
+.scene_div img{
+    width: 100%;
+}
+.product_introduce_div{
+    position: relative;
+    width: 1200px;
+    height: 675px;
+}
+.product_introduce_div.standard{
+    background: url('../img/indroduce.jpg') no-repeat 0 0;
+    background-size: 2400px auto;
+}
+.product_introduce_div.specialty{
+    background: url('../img/indroduce.jpg') no-repeat -1200px 0;
+    background-size: 2400px auto;
+}
+
+.product_introduce_div .btn_standard{
+    position: absolute;
+    top: 197px;
+    left: 348px;
+    width: 352px;
+    height:62px;
+    background: none;
+    /*background: url("../img/btn_standard01.png") no-repeat center center;
+    background-size: 352px 62px;*/
+}
+
+.product_introduce_div .btn_standard.active{
+    /*background: url("../img/btn_standard.png") no-repeat center center;
+    background-size: 352px 62px;*/
+}
+
+.product_introduce_div .btn_specialty{
+    position: absolute;
+    top: 197px;
+    right: 58px;
+    width: 442px;
+    height:62px;
+    background: none;
+    /*background: url("../img/btn_specialty01.png") no-repeat center center;
+    background-size: 352px 62px;*/
+}
+
+.product_introduce_div .btn_specialty.active{
+    /*background: url("../img/btn_specialty.png") no-repeat center center;
+    background-size: 352px 62px;*/
+}
+
+.product_introduce_div .opt{
+    position: absolute;
+    top: 98px;
+    left: 150px;
+    width: 20px;
+    height:10px;
+}
+.product_introduce_div .btn_version.active .opt{
+    display: block;
+}
+.product_introduce_div .opt{
+    display: none;
+}
+
+
+.product_introduce_div .meal_content{
+    position: absolute;
+    top: 274px;
+    left: 243px;
+    width: 714px;
+    height:270px;
+    display: block;
+}
+
+.product_introduce_div .meal_content1{
+    position: absolute;
+    top: 274px;
+    left: 243px;
+    width: 902px;
+    height:270px;
+    display: none;
+}
+.login{
+    background-color: #292929;
+}
+.apply_div {
+    display: none;
+}
+
+.login_div {
+    position: relative;
+}
+.login_div .login_box{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -175px;
+    width: 350px;
+    height: 100%;
+}
+
+.login_div .login_box .text{
+    float: right;
+    margin-top: 33px;
+    color: #333;
+    font-size: 16px;
+}
+
+.login_div .login_box .login_name{
+    height: 37px;
+    width: 350px;
+    border: 2px solid #FBB03B;
+    margin-top: 76px;
+    padding-left: 21px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+}
+
+.login_div .login_box .login_password{
+    height: 37px;
+    width: 350px;
+    border: 2px solid #FBB03B;
+    padding-left: 21px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+.login_div .login_box .code_div{
+    height: 37px;
+    width: 350px;
+    margin-top: 28px;
+}
+
+.login_div .login_box .code_div .verify_code{
+    height: 37px;
+    width: 175px;
+    border: 2px solid #FBB03B;
+    padding-left: 21px;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+}
+
+.login_div .login_box .code_div .verify_code_img{
+    float: right;
+    height: 37px;
+    width: 175px;
+    background: #FBB03B;
+}
+
+.login_div .login_box .btn_affirm{
+    margin-top: 40px;
+    height: 40px;
+    width: 350px;
+    background: #FBB03B;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+    line-height: 40px;
+}
+
+.icon_div{
+    position: fixed;
+    top: 50%;
+    left: 44px;
+    margin-top: -300px;
+    height: 600px;
+}
+
+.icon_div .icon_box .btn_g{
+    width: 60px;
+    height: 60px;
+    background: url("../img/logo_01.png") no-repeat center center;
+}
+
+.icon_div .icon_box01 {
+    position: relative;
+    height: 76px;
+}
+
+.icon_div .icon_box01 .btn_g01{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/scene02.png") no-repeat center center;
+}
+.icon_div .icon_box01.active .btn_g01{
+    background: url("../img/scene01.png");
+}
+.icon_div .icon_box01.active .img_label{
+    display: block;
+}
+
+.icon_div .icon_box01 .img_label{
+    width: 90px;
+    height: 76px;
+    margin-left: 44px;
+    display: none;
+}
+
+
+.icon_div .icon_box01 .btn_g02{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/product_function02.png") no-repeat center center;
+}
+
+.icon_div .icon_box01.active .btn_g02{
+    background: url("../img/product_function01.png");
+}
+
+.icon_div .icon_box01 .btn_g03{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/product_introduce02.png") no-repeat center center;
+ }
+
+.icon_div .icon_box01.active .btn_g03{
+    background: url("../img/product_introduce01.png");
+}
+
+.icon_div .icon_box01 .btn_g04{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/science_advantage02.png") no-repeat center center;
+}
+
+.icon_div .icon_box01.active .btn_g04{
+    background: url("../img/science_advantage01.png");
+}
+
+.icon_div .icon_box01 .btn_g05{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/collaborate_brand02.png") no-repeat center center;
+}
+
+.icon_div .icon_box01.active .btn_g05{
+    background: url("../img/collaborate_brand01.png");
+}
+
+.icon_div .icon_box06 {
+    position: relative;
+    height: 56px;
+}
+
+.icon_div .icon_box06 .btn_g06{
+    position: absolute;
+    top:50%;
+    margin-top: -15px;
+    margin-left: 13px;
+    width: 31px;
+    height: 31px;
+    background: url("../img/login.png") no-repeat center center;
+}
+
+.icon_div .icon_box06 .img_label1{
+    width: 66px;
+    height: 56px;
+    margin-left: 44px;
+    display: none;
+}
+
+.icon_div .icon_box06.active .img_label1{
+    display: block;
+}
+
+.controls{
+    position: relative;
+    margin-top: 30px;
+}
+.controls .main_input_box{
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+.controls .main_input_box a{
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    /*鍏朵粬灞�/
+   /*.body_box{
+        width:320px;
+    }
+
+    .product_introduce_div .btn_standard{
+        position: absolute;
+        top: 36px;
+        left: 127px;
+        width: 94px;
+        height:16px;
+        background: url("../img/btn_standard01.png") no-repeat center center;
+        background-size: 94px 16px;
+    }
+
+    .product_introduce_div .btn_standard.active{
+        background: url("../img/btn_standard.png") no-repeat center center;
+        background-size: 94px 16px;
+    }
+
+    .product_introduce_div .btn_specialty{
+        position: absolute;
+        top: 36px;
+        right: 9px;
+        width: 94px;
+        height:16px;
+        background: url("../img/btn_specialty01.png") no-repeat center center;
+        background-size: 94px 16px;
+    }
+
+    .product_introduce_div .btn_specialty.active{
+        background: url("../img/btn_specialty.png") no-repeat center center;
+        background-size: 94px 16px;
+    }
+
+    .product_introduce_div .opt{
+        position: absolute;
+        top: 26px;
+        left: 42px;
+        width: 5px;
+        height:3px;
+    }
+
+    .product_introduce_div .meal_content{
+        position: absolute;
+        top: 72px;
+        left: 64px;
+        width: 192px;
+        height:72px;
+    }
+
+    .product_introduce_div .meal_content1{
+        position: absolute;
+        top: 72px;
+        left: 64px;
+        width: 240px;
+        height:72px;
+        display: none;
+    }
+
+    .icon_div{
+        display: none;
+    }
+
+    .login_div {
+        position: relative;
+    }
+    .login_div .login_box{
+        position: absolute;
+        top: 0;
+        left: 0%;
+        margin-left: 0;
+        width: 320px;
+        height: 100%;
+        text-align: center;
+    }
+    .login_div .login_img{
+        width: 58px;
+    }
+
+    .login_div .login_box .text{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        color: #333;
+        font-size: 8px;
+    }
+
+    .login_div .login_box .login_name,
+    .login_div .login_box .login_password{
+        height: 30px;
+        width: 300px;
+        border: 2px solid #FBB03B;
+        margin-top: 30px;
+        padding-left: 0;
+        text-indent: 1em;
+        color: #333;
+        font-size: 8px;
+        border-radius: 2px;
+    }
+
+    .login_div .login_box .code_div{
+        height: 30px;
+        width: 300px;
+        margin-top: 28px;
+    }
+
+    .login_div .login_box .code_div .verify_code{
+        height: 30px;
+        width: 150px;
+        border: 2px solid #FBB03B;
+        padding-left: 0;
+        text-indent: 1em;
+        color: #333;
+        font-size: 8px;
+    }
+
+    .login_div .login_box .code_div .verify_code_img{
+        float: right;
+        height: 30px;
+        width: 130px;
+        background: #FBB03B;
+    }
+
+    .login_div .login_box .btn_affirm{
+        margin-top: 30px;
+        height: 40px;
+        width: 300px;
+        background: #FBB03B;
+        border-radius: 20px;
+        font-size: 18px;
+        color: white;
+        font-weight: bolder;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }*/
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+   /*col-md 涓睆*/
+   /*.body_box{
+        width:992px;
+    }
+
+    .product_introduce_div .btn_standard{
+        position: absolute;
+        top: 110px;
+        left: 394px;
+        width: 292px;
+        height:52px;
+        background: url("../img/btn_standard01.png") no-repeat center center;
+        background-size: 292px 52px;
+    }
+
+    .product_introduce_div .btn_standard.active{
+        background: url("../img/btn_standard.png") no-repeat center center;
+        background-size: 292px 52px;
+    }
+
+    .product_introduce_div .btn_specialty{
+        position: absolute;
+        top: 110px;
+        right: 28px;
+        width: 292px;
+        height:52px;
+        background: url("../img/btn_specialty01.png") no-repeat center center;
+        background-size: 292px 52px;
+    }
+
+    .product_introduce_div .btn_specialty.active{
+        background: url("../img/btn_specialty.png") no-repeat center center;
+        background-size: 292px 52px;
+    }
+
+    .product_introduce_div .opt{
+        position: absolute;
+        top: 81px;
+        left: 150px;
+        width: 20px;
+        height:10px;
+    }
+
+    .product_introduce_div .meal_content{
+        position: absolute;
+        top: 226px;
+        left: 200px;
+        width: 590px;
+        height:223px;
+    }
+
+    .product_introduce_div .meal_content1{
+        position: absolute;
+        top: 226px;
+        left: 200px;
+        width: 746px;
+        height:223px;
+        display: none;
+    }*/
+}
+ 
+@media (min-width: 1200px) {
+   /*col-lg 澶у睆*/
+}

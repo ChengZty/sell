@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>管家系统</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <link rel="stylesheet" href="./../../webpage/daggerSrc/common/css/reset.css" />
+    <link rel="stylesheet" href="./../../webpage/daggerSrc/login/css/daggerLogin.css" />
+</head>
+<body>
+    <div class="th_nav">
+        <div class="th_logo"></div>
+        <div class="th_menu"></div>
+    </div>
+    <div class="th_content">
+        <div class="content_tab">
+            <button class_tag="login_content" class="tab_login active">登录</button>
+            <button class_tag="register_content" class="tab_register">注册</button>
+        </div>
+        <!--登录-->
+        <div class="login_content">
+            <form id="login_form" method="POST">
+                <div class="input_box">
+                    <input class="input_username" type="text" name="username" value="" placeholder="用户名">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <div class="input_box">
+                    <input class="input_pwd" type="password" name="pwd" value="" placeholder="密码">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <button type="button" class="btn_login">立即登录</button>
+            </form>
+            <p class="forget_pwd">忘记密码？</p>
+            <div class="split_line"></div>
+            <ul class="link_list clearfix">
+                <li class="link_item"><button class="btn_link">QQ</button></li>
+                <li class="link_item"><button class="btn_link">微信</button></li>
+                <li class="link_item"><button class="btn_link">邮箱</button></li>
+            </ul>
+        </div>
+        <!--注册-->
+        <div class="register_content hide">
+            <form id="register_form" method="POST">
+                <div class="input_box">
+                    <input class="input_phonenum" type="text" name="phonenum" value="" placeholder="手机号码">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <div class="input_box">
+                    <input class="input_idcode" type="text" name="idcode" value="" placeholder="验证码">
+                    <button type="button" class="btn_getIdcode">获取验证码</button>
+                </div>
+                <div class="split_line"></div>
+                <div class="input_box">
+                    <input class="input_username" type="text" name="username" value="" placeholder="请设置用户名">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <div class="input_box">
+                    <input class="input_pwd" type="password" name="pwd" value="" placeholder="请设置密码（不小于8位）">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <div class="input_box">
+                    <input class="input_confirm_pwd" type="password" name="confirm_pwd" value="" placeholder="确认密码">
+                    <button type="button" class="btn_clear">清</button>
+                </div>
+                <div class="check_box">
+                    <input type="checkbox" name="agreed" id="agreed" checked="checked">
+                    <label for="agreed">同意<a href="javascript:;">用户服务协议</a></label>
+                </div>
+                
+                <button type="button" class="btn_register">提交注册信息</button>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./../../webpage/daggerSrc/login/js/daggerLogin.js"></script>
+</body>
+</html>

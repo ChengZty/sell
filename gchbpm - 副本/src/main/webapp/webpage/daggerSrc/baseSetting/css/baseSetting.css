@@ -1,0 +1,44 @@
+.th_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -422px;
+    margin-top: -179px;
+    width: 844px;
+    color: #4d4d4d;
+}
+.th_content .title{
+    padding-left: 35px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 22px;
+    background: url('../../common/img/icon_setting.png') no-repeat 0 center;
+}
+.th_content .content_box{
+    padding: 44px 0 0 20px;
+}
+.th_content .content_item{
+    position: relative;
+    font-size: 18px;
+    padding-bottom: 52px;
+}
+.th_content .item_title,
+.th_content .item_detail{
+    height: 20px;
+    line-height: 20px;
+}
+.th_content .item_detail{
+    position: absolute;
+    top: 0;
+    left: 152px;
+    color: #808080;
+}
+.th_content .item_status,
+.th_content .item_modify{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    color: #0071BA;
+    cursor: pointer;
+}

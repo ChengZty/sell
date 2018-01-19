@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+	xsi:schemaLocation="http://www.springframework.org/schema/rabbit	http://www.springframework.org/schema/rabbit/spring-rabbit-1.4.xsd
+	http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+<!-- 	http://www.springframework.org/schema/beans	http://www.springframework.org/schema/beans/spring-beans-4.1.xsd"> -->
+
+	<!-- 定义rabbitMQ的连接工厂 -->
+	 <rabbit:connection-factory id="connectionFactory" 
+			host="${rmq.ip}"
+			port="${rmq.port}" 
+			username="${rmq.manager.user}" 
+			password="${rmq.manager.password}" 
+			virtual-host="${rmq.manager.virtual.host}"
+	/> 
+	<!-- <rabbit:connection-factory id="connectionFactory" 
+			host="119.147.84.249"
+			port="5672" 
+			username="test" 
+			password="test" 
+			virtual-host="/taotao"
+	/> -->
+	<!-- 定义rabbit模版，指定连接工程以及定义exchange -->
+	<rabbit:template id="amqpTemplate" connection-factory="connectionFactory" exchange="topicExchange"  />
+	<!-- MQ的管理，包括队列、交换机 -->
+	<rabbit:admin connection-factory="connectionFactory"/>
+	
+	<!-- 定义队列，自动声明 -->
+<!-- 	<rabbit:queue name="refundOrderQueue" auto-declare="true"></rabbit:queue> -->
+<!-- 	<rabbit:queue name="sendMsgQueue" auto-declare="true"></rabbit:queue> -->
+<!-- 	<rabbit:queue name="updatePhoneAreaQueue" auto-declare="true"></rabbit:queue> -->
+	<!-- 订单自动发送短信mq的 -->
+<!-- 	<rabbit:queue name="sendOrderMsgQueue" auto-declare="true"></rabbit:queue> -->
+	<!-- 定义交换机，自动声明  多个团队开发最好进行手工去管理工具绑定-->
+	 <rabbit:topic-exchange name="topicExchange" auto-declare="true">
+<!-- 		交换机绑定队列 消费的时候需要绑定，发消息不需要-->
+<!-- 		<rabbit:bindings> -->
+<!-- 			退款 -->
+<!-- 			<rabbit:binding pattern="${rfd.order.mq.key}" queue="refundOrderQueue"></rabbit:binding> -->
+<!-- 			发短信 -->
+<!-- 			<rabbit:binding pattern="${send.msg.mq.queue.key}" queue="sendMsgQueue"></rabbit:binding> -->
+<!-- 			更新号码归属地 -->
+<!-- 			<rabbit:binding pattern="${update.phoneArea.mq.queue.key}" queue="updatePhoneAreaQueue"></rabbit:binding> -->
+			<!-- 订单自动发送短信 -->
+<!-- 			<rabbit:binding pattern="${send.order.msg.mq.queue.key}" queue="sendOrderMsgQueue"></rabbit:binding> -->
+<!-- 		</rabbit:bindings> -->
+	</rabbit:topic-exchange>
+	
+</beans>	

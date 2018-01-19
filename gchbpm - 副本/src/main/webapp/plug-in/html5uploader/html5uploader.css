@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.h5-upload-window{
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+  }
+  .h5-upload-window .h5-upload-box{
+   position: absolute;
+   left:50%;
+   top:50%;
+   -webkit-transform:translate(-50%,-50%);
+   transform:translate(-50%,-50%);
+   width: 500px;
+   height: 250px;
+   background: #ffffff;
+  }
+  .h5-upload-box .upload-title-box{
+	position: relative;
+	height: 40px;
+	background: #cce6ff;
+  }
+  .h5-upload-box .upload-title-box .upload-title{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 22px;
+  }
+  .h5-upload-box .upload-title-box .btn-close{
+   position: absolute;
+   right:10px;
+   top:50%;
+   -webkit-transform:translate(0,-50%);
+   transform:translate(0,-50%);
+   width: 30px;
+   height: 30px;
+   background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAYAAACMo1E1AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlxJREFUeNq0WIFtxCAM/P8Fmg3KCGzQbNCMQDfICBkhG5RukBHSDdINMgKdICUVeVkWDrb5t3Rq9RhyYGMbX7dtu1SISWgzY3PEmqCTnZwQNmKMWDeehAgf0Um/JVFuI+atTvYNOe43rwyz7mYbI97R778RU8SSENJfA2AjuohXNPcnwiV9tVm7ZBYos8JEbTItll5rVpcxSavwUQiTcQ0vJecyCzSVxCB6DkHKlFDcA0mducxQImfQhP5JxKAvQmnPyE0cX3gweuTXWXItUmqIABwUprZpTUuMTznzQoWZOl5ETOqLcF4gCBqk00ByFsWx3EdCJk45ATGYzkxGd8DrHgMjGOiY4aVE0BIb8icx8JAFklvBriSBmSIoJZbzvQYz5tzQEkEtMXxzO3xLuXGNIjhUEMNcBuyIktzpmGWSNF7e591QkRIEdaqP+CjofKXSSFdlo5PTRPiBOLFZud59/i1TWEpkLyZ7Yuyt4tT+pYacTY+YlxOdzwqC4YZKZVNJ7LuSoAX/LzjOjcJcmbuV0kxCRYAO5821ktilkiDMEOb40TNinTTySwk2VG7tGB9bFQGWIliqSnpcz62FyfjkvDKTOOLU4NoNJucYAdSC9sJFkeook465TWOlhVEEmIo3aynZB/g8yJ3Mxig8H4XT0r9UU4UnEiz6MDXRS3oayvdqwKFD0ivBBKcKf4O3ckTrLlSrQ9rTCCkeGQWpXJXsa5uHLRGAp0T+LKM4lJLgJou5VlpUhq1e2B0rjc84FA85sqRTFrXROG1XSprURbegzQrfIguAqqP+J8AAwthD6GmhVjUAAAAASUVORK5CYII=') no-repeat center center;
+   background-size: contain;
+   cursor: pointer;
+  }
+  .h5-upload-box .btn-menu-box{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	width: 100%;
+  }
+  .h5-upload-box .btn-menu-box .btn-item{
+	float: right;
+	font-size: 16px;
+	margin-right: 20px;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	border: 1px solid #b2b2b2;
+	border-radius: 6px;
+	cursor: pointer;
+	user-select: none;
+  }
+  .h5-upload-box .btn-menu-box .btn-item.active{
+	background: #3879d9;
+	color: #ffffff;
+  }
+  .h5-upload-box .h5-uploader{
+	margin: 20px 0 0 20px;
+  }
+.uploadfile{
+	width:0;
+}
+.filelist li{
+	list-style-type:none;
+	margin-top:10px;
+}
+.filelist{
+	padding:0;
+}
+.uploadbtn,.delfilebtn,.uploadfilebtn{
+	display:inline-block;
+	border:1px solid #999;
+	line-height:24px;
+	border-radius:2px;
+	padding:0 18px;
+    font-size:12px;
+	color:#666;
+	cursor:pointer;
+	background:url(images/btnbg.png) repeat-x 0 0;
+	text-decoration:none;
+}
+.uploadfilebtn:hover{
+	color: #000000;
+}
+.filename,.progressnum,.delfilebtn,.uploadbtn{
+	font-size:12px;
+	color:#666;
+	margin-left:10px;
+}
+.progress{
+	 display:inline-block; 
+	 width:400px; 
+	 height:10px; 
+	 background-color:white;
+	 border-radius:20px;
+	 border:2px groove #666;
+	 vertical-align:middle;
+	 padding:0 2px;
+}
+.progressbar{
+	width:0;
+	height:9px;
+	border-radius:20px;
+	background:url(images/jdt.png) repeat-x center; 
+}
+.uploadbtn, .delfilebtn{
+	display: none;
+}
